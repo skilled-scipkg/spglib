@@ -1,0 +1,385 @@
+{
+  "compile_memory_path": "skills/.evidence/memory.md",
+  "compiled_package_id": "spglib",
+  "evidence": {
+    "core_skills": [
+      "spglib-build-and-install",
+      "spglib-api-and-scripting",
+      "spglib-inputs-and-modeling",
+      "spglib-developer-guide",
+      "spglib-variable",
+      "spglib-simulation-workflows"
+    ],
+    "evidence_dir": "skills/.evidence",
+    "files": [
+      "skills/.evidence/spglib-build-and-install.md",
+      "skills/.evidence/spglib-api-and-scripting.md",
+      "skills/.evidence/spglib-inputs-and-modeling.md",
+      "skills/.evidence/spglib-developer-guide.md",
+      "skills/.evidence/spglib-variable.md",
+      "skills/.evidence/spglib-simulation-workflows.md"
+    ]
+  },
+  "generation": {
+    "docs_only": false,
+    "generator_script": "sci-skills-generator/scripts/generate_skills_folder.py",
+    "max_skills": 30,
+    "return_code": 0,
+    "status": "ok"
+  },
+  "mode": "compile",
+  "pass_scope_diffs": {
+    "pass_2": {
+      "added": [
+        "skills/.evidence/memory.md",
+        "skills/spglib-advanced-topics/SKILL.md",
+        "skills/spglib-advanced-topics/references/doc_map.md",
+        "skills/spglib-advanced-topics/references/source_map.md"
+      ],
+      "changed": [
+        "skills/.evidence/memory.md",
+        "skills/spglib-advanced-topics/SKILL.md",
+        "skills/spglib-advanced-topics/references/doc_map.md",
+        "skills/spglib-advanced-topics/references/source_map.md",
+        "skills/spglib-api-and-scripting/SKILL.md",
+        "skills/spglib-api-and-scripting/references/doc_map.md",
+        "skills/spglib-api-and-scripting/references/source_map.md",
+        "skills/spglib-build-and-install/SKILL.md",
+        "skills/spglib-build-and-install/references/doc_map.md",
+        "skills/spglib-build-and-install/references/source_map.md",
+        "skills/spglib-codespell/SKILL.md",
+        "skills/spglib-codespell/references/doc_map.md",
+        "skills/spglib-codespell/references/source_map.md",
+        "skills/spglib-dataset/SKILL.md",
+        "skills/spglib-dataset/references/doc_map.md",
+        "skills/spglib-dataset/references/source_map.md",
+        "skills/spglib-developer-guide/SKILL.md",
+        "skills/spglib-developer-guide/references/doc_map.md",
+        "skills/spglib-developer-guide/references/source_map.md",
+        "skills/spglib-examples-and-tutorials/SKILL.md",
+        "skills/spglib-examples-and-tutorials/references/doc_map.md",
+        "skills/spglib-examples-and-tutorials/references/source_map.md",
+        "skills/spglib-getting-started/SKILL.md",
+        "skills/spglib-getting-started/references/doc_map.md",
+        "skills/spglib-getting-started/references/source_map.md",
+        "skills/spglib-index/SKILL.md",
+        "skills/spglib-inputs-and-modeling/SKILL.md",
+        "skills/spglib-inputs-and-modeling/references/doc_map.md",
+        "skills/spglib-inputs-and-modeling/references/source_map.md",
+        "skills/spglib-magnetic-dataset/SKILL.md",
+        "skills/spglib-magnetic-dataset/references/doc_map.md",
+        "skills/spglib-magnetic-dataset/references/source_map.md",
+        "skills/spglib-parallel-hpc/SKILL.md",
+        "skills/spglib-parallel-hpc/references/doc_map.md",
+        "skills/spglib-parallel-hpc/references/source_map.md",
+        "skills/spglib-simulation-workflows/SKILL.md",
+        "skills/spglib-simulation-workflows/references/doc_map.md",
+        "skills/spglib-simulation-workflows/references/source_map.md",
+        "skills/spglib-variable/SKILL.md",
+        "skills/spglib-variable/references/doc_map.md",
+        "skills/spglib-variable/references/source_map.md"
+      ],
+      "deleted": [
+        "skills/spglib-codespell/SKILL.md",
+        "skills/spglib-codespell/references/doc_map.md",
+        "skills/spglib-codespell/references/source_map.md",
+        "skills/spglib-dataset/SKILL.md",
+        "skills/spglib-dataset/references/doc_map.md",
+        "skills/spglib-dataset/references/source_map.md",
+        "skills/spglib-getting-started/SKILL.md",
+        "skills/spglib-getting-started/references/doc_map.md",
+        "skills/spglib-getting-started/references/source_map.md",
+        "skills/spglib-magnetic-dataset/SKILL.md",
+        "skills/spglib-magnetic-dataset/references/doc_map.md",
+        "skills/spglib-magnetic-dataset/references/source_map.md",
+        "skills/spglib-parallel-hpc/SKILL.md",
+        "skills/spglib-parallel-hpc/references/doc_map.md",
+        "skills/spglib-parallel-hpc/references/source_map.md"
+      ],
+      "modified": [
+        "skills/spglib-api-and-scripting/SKILL.md",
+        "skills/spglib-api-and-scripting/references/doc_map.md",
+        "skills/spglib-api-and-scripting/references/source_map.md",
+        "skills/spglib-build-and-install/SKILL.md",
+        "skills/spglib-build-and-install/references/doc_map.md",
+        "skills/spglib-build-and-install/references/source_map.md",
+        "skills/spglib-developer-guide/SKILL.md",
+        "skills/spglib-developer-guide/references/doc_map.md",
+        "skills/spglib-developer-guide/references/source_map.md",
+        "skills/spglib-examples-and-tutorials/SKILL.md",
+        "skills/spglib-examples-and-tutorials/references/doc_map.md",
+        "skills/spglib-examples-and-tutorials/references/source_map.md",
+        "skills/spglib-index/SKILL.md",
+        "skills/spglib-inputs-and-modeling/SKILL.md",
+        "skills/spglib-inputs-and-modeling/references/doc_map.md",
+        "skills/spglib-inputs-and-modeling/references/source_map.md",
+        "skills/spglib-simulation-workflows/SKILL.md",
+        "skills/spglib-simulation-workflows/references/doc_map.md",
+        "skills/spglib-simulation-workflows/references/source_map.md",
+        "skills/spglib-variable/SKILL.md",
+        "skills/spglib-variable/references/doc_map.md",
+        "skills/spglib-variable/references/source_map.md"
+      ]
+    },
+    "pass_3": {
+      "added": [
+        "skills/.compile_report.json"
+      ],
+      "changed": [
+        "skills/.compile_report.json",
+        "skills/.evidence/memory.md",
+        "skills/spglib-advanced-topics/SKILL.md",
+        "skills/spglib-advanced-topics/references/source_map.md",
+        "skills/spglib-api-and-scripting/references/source_map.md",
+        "skills/spglib-build-and-install/references/source_map.md",
+        "skills/spglib-developer-guide/references/source_map.md",
+        "skills/spglib-examples-and-tutorials/SKILL.md",
+        "skills/spglib-examples-and-tutorials/references/source_map.md",
+        "skills/spglib-index/SKILL.md",
+        "skills/spglib-inputs-and-modeling/references/source_map.md",
+        "skills/spglib-simulation-workflows/references/source_map.md",
+        "skills/spglib-variable/references/source_map.md"
+      ],
+      "deleted": [],
+      "modified": [
+        "skills/.evidence/memory.md",
+        "skills/spglib-advanced-topics/SKILL.md",
+        "skills/spglib-advanced-topics/references/source_map.md",
+        "skills/spglib-api-and-scripting/references/source_map.md",
+        "skills/spglib-build-and-install/references/source_map.md",
+        "skills/spglib-developer-guide/references/source_map.md",
+        "skills/spglib-examples-and-tutorials/SKILL.md",
+        "skills/spglib-examples-and-tutorials/references/source_map.md",
+        "skills/spglib-index/SKILL.md",
+        "skills/spglib-inputs-and-modeling/references/source_map.md",
+        "skills/spglib-simulation-workflows/references/source_map.md",
+        "skills/spglib-variable/references/source_map.md"
+      ]
+    }
+  },
+  "passes": [
+    {
+      "pass": 1,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 2,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 3,
+      "return_code": 0,
+      "status": "ok"
+    }
+  ],
+  "profile": {
+    "docs_dirs": [
+      "docs"
+    ],
+    "docs_only": false,
+    "notes": [
+      "example/ is a symlinked facade over test/example language-specific examples.",
+      "database/ contains generator scripts and scientific lookup tables used to build source databases.",
+      "sci-skills-generator script was patched to remove an f-string backslash syntax error blocking dry-run execution."
+    ],
+    "package_name": "spglib",
+    "profile_path": "skills/.compile_profile.json",
+    "profile_source": "file",
+    "source_dirs": [
+      "cmake",
+      "database",
+      "fortran",
+      "include",
+      "python",
+      "ruby",
+      "src"
+    ],
+    "test_dirs": [
+      "test",
+      ".distro/tests"
+    ],
+    "tutorial_dirs": [
+      "example",
+      "test/example"
+    ],
+    "warnings": []
+  },
+  "project_root": "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/spglib-spglib",
+  "run_id": "compile_20260301T061007989515Z",
+  "skill_plan": {
+    "available_skill_ids": [
+      "spglib-api-and-scripting",
+      "spglib-build-and-install",
+      "spglib-codespell",
+      "spglib-dataset",
+      "spglib-developer-guide",
+      "spglib-examples-and-tutorials",
+      "spglib-getting-started",
+      "spglib-index",
+      "spglib-inputs-and-modeling",
+      "spglib-magnetic-dataset",
+      "spglib-parallel-hpc",
+      "spglib-simulation-workflows",
+      "spglib-variable"
+    ],
+    "core_skill_ids": [
+      "spglib-build-and-install",
+      "spglib-api-and-scripting",
+      "spglib-inputs-and-modeling",
+      "spglib-developer-guide",
+      "spglib-variable",
+      "spglib-simulation-workflows"
+    ],
+    "deferred_gaps": [
+      "Ruby wrapper documentation is minimal and may remain lower-priority unless explicitly requested.",
+      "database/ regeneration pipeline details are split across scripts and may need a dedicated follow-up skill.",
+      ".distro/tests currently covers smoke orchestration only; deeper CI matrix behavior is deferred."
+    ],
+    "goal": "Generate high-impact, docs-first spglib skills in pass 2 and audit/merge low-signal topics in pass 3.",
+    "mode": "compile",
+    "priority_skills": [
+      {
+        "action": "refresh",
+        "must_cover": [
+          "Route by intent across build, API, examples, testing, and developer tasks",
+          "Enforce docs-first then source-escalation workflow",
+          "Expose canonical docs/tutorial/test/source roots from compile profile"
+        ],
+        "reason": "Router quality determines whether users reach the right topic skill quickly.",
+        "skill_id": "spglib-index",
+        "source_hints": [
+          "README.md",
+          "docs/index.md",
+          "test/README.md",
+          "python/README.rst"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "CMake build and install workflow",
+          "Python wheel/source installation paths",
+          "Fortran interface build/link expectations",
+          "Test-enabled build flags and quick validation commands"
+        ],
+        "reason": "Build/install questions are frequent and cut across C, Python, and Fortran entry points.",
+        "skill_id": "spglib-build-and-install",
+        "source_hints": [
+          "docs/install.md",
+          "README.md",
+          "CMakeLists.txt",
+          "python/README.rst",
+          "fortran/README.md"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "C API data structures and core call patterns",
+          "Python binding usage and compatibility constraints",
+          "Error/status handling patterns",
+          "Cross-reference from docs to concrete source entry points"
+        ],
+        "reason": "API usage (especially Python and C) is the dominant user workflow after installation.",
+        "skill_id": "spglib-api-and-scripting",
+        "source_hints": [
+          "docs/api.md",
+          "docs/interface.md",
+          "docs/python-interface.md",
+          "include/spglib.h",
+          "python/spglib"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "Minimal C, Python, and Fortran example flows",
+          "How to map examples to API docs",
+          "Expected outputs or quick correctness checks"
+        ],
+        "reason": "Runnable examples shorten troubleshooting time and improve answer precision.",
+        "skill_id": "spglib-examples-and-tutorials",
+        "source_hints": [
+          "example/README.md",
+          "test/example/c_api",
+          "test/example/python_api",
+          "test/example/fortran_api"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "Repository architecture and generated database components",
+          "Testing layers (unit/functional/integration/package/pytest/tmt)",
+          "Performance and magnetic-symmetry development notes"
+        ],
+        "reason": "Contributor and maintenance workflows need cohesive guidance across development docs and tests.",
+        "skill_id": "spglib-developer-guide",
+        "source_hints": [
+          "docs/development/develop.md",
+          "docs/development/performance.md",
+          "docs/development/magnetic_symmetry_flags.md",
+          "test/README.md",
+          "database"
+        ]
+      },
+      {
+        "action": "audit",
+        "must_cover": [
+          "Collapse low-signal one-doc skills into a single advanced topic",
+          "Preserve discoverability from index routing",
+          "Keep total skill count within cap while retaining references"
+        ],
+        "reason": "The dry-run shows multiple one-doc topics that should be merged to reduce routing noise.",
+        "skill_id": "spglib-variable",
+        "source_hints": [
+          "skills/spglib-*/references/doc_map.md",
+          "sci-skills-generator/references/generation-rubric.md"
+        ]
+      }
+    ],
+    "version": 1,
+    "warnings": []
+  },
+  "skill_plan_path": "skills/.evidence/skill_plan.json",
+  "validation": {
+    "core_skills_checked": [
+      "spglib-api-and-scripting",
+      "spglib-build-and-install",
+      "spglib-inputs-and-modeling",
+      "spglib-simulation-workflows",
+      "spglib-developer-guide",
+      "spglib-variable"
+    ],
+    "docs_only": false,
+    "errors": [
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/spglib-spglib/skills/spglib-api-and-scripting/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/spglib-spglib/skills/spglib-build-and-install/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/spglib-spglib/skills/spglib-inputs-and-modeling/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/spglib-spglib/skills/spglib-simulation-workflows/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/spglib-spglib/skills/spglib-developer-guide/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/spglib-spglib/skills/spglib-variable/SKILL.md: playbook missing required element containing 'convergence/validation'."
+    ],
+    "index_skills": [
+      "spglib-index"
+    ],
+    "missing_planned_skills": [],
+    "ok": false,
+    "planned_skill_ids": [
+      "spglib-index",
+      "spglib-build-and-install",
+      "spglib-api-and-scripting",
+      "spglib-examples-and-tutorials",
+      "spglib-developer-guide",
+      "spglib-variable"
+    ],
+    "previous_source_inventory": {},
+    "skills_total": 9,
+    "source_inventory": {},
+    "source_links_total": 49,
+    "topic_skills": 8,
+    "warnings": []
+  }
+}
